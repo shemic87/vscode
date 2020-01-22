@@ -174,13 +174,6 @@ ansi-wrap@0.1.0:
   version "0.1.0"
   resolved "https://registry.yarnpkg.com/ansi-wrap/-/ansi-wrap-0.1.0.tgz#a82250ddb0015e9a27ca82e82ea603bbfa45efaf"
 
-anymatch@^1.3.0:
-  version "1.3.2"
-  resolved "https://registry.yarnpkg.com/anymatch/-/anymatch-1.3.2.tgz#553dcb8f91e3c889845dfdba34c77721b90b9d7a"
-  dependencies:
-    micromatch "^2.1.5"
-    normalize-path "^2.0.0"
-
 applicationinsights@0.18.0:
   version "0.18.0"
   resolved "https://registry.yarnpkg.com/applicationinsights/-/applicationinsights-0.18.0.tgz#162ebb48a383408bc4de44db32b417307f45bbc1"
@@ -3932,13 +3925,18 @@ nan@^2.0.0:
   version "2.9.2"
   resolved "https://registry.yarnpkg.com/nan/-/nan-2.9.2.tgz#f564d75f5f8f36a6d9456cca7a6c4fe488ab7866"
 
-nan@^2.0.9, nan@^2.3.0:
+nan@^2.0.9:
   version "2.4.0"
   resolved "https://registry.yarnpkg.com/nan/-/nan-2.4.0.tgz#fb3c59d45fe4effe215f0b890f8adf6eb32d2232"
 
 nan@^2.1.0:
   version "2.7.0"
   resolved "https://registry.yarnpkg.com/nan/-/nan-2.7.0.tgz#d95bf721ec877e08db276ed3fc6eb78f9083ad46"
+
+nan@^2.10.0:
+  version "2.14.0"
+  resolved "https://registry.yarnpkg.com/nan/-/nan-2.14.0.tgz#7818f722027b2459a86f0295d434d1fc2336c52c"
+  integrity sha512-INOFj37C7k3AfaNTtX8RhsTw7qRy7eLET14cROi9+5HAVbbHuIWUHEauBv5qT4Av2tWasiTY1Jw6puUNqRJXQg==
 
 nan@^2.6.2:
   version "2.6.2"
@@ -6195,11 +6193,19 @@ vsce@1.33.2:
     yauzl "^2.3.1"
     yazl "^2.2.2"
 
-vscode-chokidar@1.6.2:
-  version "1.6.2"
-  resolved "https://registry.yarnpkg.com/vscode-chokidar/-/vscode-chokidar-1.6.2.tgz#4db06e2d963befe42dd44434212f5b8606b53831"
+vscode-anymatch@^1.3.0:
+  version "1.3.3"
+  resolved "https://registry.yarnpkg.com/vscode-anymatch/-/vscode-anymatch-1.3.3.tgz#0613d31a949c8025473bbdad848d219f47a44f86"
+  integrity sha512-LQ4vF4BWb9gwAvbMtN+3HC4HKDxLd+ZyWmAjACOdD05O/ZMcgvvnjO24GseEIQ6cWn8gW+Ft08gHFihnQy1eSw==
   dependencies:
-    anymatch "^1.3.0"
+    micromatch "^2.1.5"
+    normalize-path "^2.0.0"
+
+vscode-chokidar@1.6.4:
+  version "1.6.4"
+  resolved "https://registry.yarnpkg.com/vscode-chokidar/-/vscode-chokidar-1.6.4.tgz#03e5b5f755a1e73b4f15310e66f59b11673fbdd2"
+  integrity sha512-2A4YQsY2Mm6VAxushKwJTIWCxnDe+1BPTSa+4zQGWcFvyu5W1q+WCp+hTIG6eZ+hc7JHdrHeKzZ0mgUsUFwQgQ==
+  dependencies:
     async-each "^1.0.0"
     glob-parent "^2.0.0"
     inherits "^2.0.1"
@@ -6207,18 +6213,20 @@ vscode-chokidar@1.6.2:
     is-glob "^2.0.0"
     path-is-absolute "^1.0.0"
     readdirp "^2.0.0"
+    vscode-anymatch "^1.3.0"
   optionalDependencies:
-    vscode-fsevents "0.3.8"
+    vscode-fsevents "0.3.9"
 
 vscode-debugprotocol@1.30.0:
   version "1.30.0"
   resolved "https://registry.yarnpkg.com/vscode-debugprotocol/-/vscode-debugprotocol-1.30.0.tgz#ece6d8559733e87bc7a2147b385899777a92af69"
 
-vscode-fsevents@0.3.8:
-  version "0.3.8"
-  resolved "https://registry.yarnpkg.com/vscode-fsevents/-/vscode-fsevents-0.3.8.tgz#389647fa2f6daffedf1b40132a5bb96ac6501521"
+vscode-fsevents@0.3.9:
+  version "0.3.9"
+  resolved "https://registry.yarnpkg.com/vscode-fsevents/-/vscode-fsevents-0.3.9.tgz#edbb66ea2c4eeb102b9194bb602e73bd9512c64c"
+  integrity sha512-ykvsVNFXeSc8aBNzwp0hIq41i80njAfpCwbQ3h04x69VC4xSK/PqVStNlOg7oRnrGHu8acchZv++k6WHXpSp1A==
   dependencies:
-    nan "^2.3.0"
+    nan "^2.10.0"
 
 vscode-nls-dev@3.0.7:
   version "3.0.7"
