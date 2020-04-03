@@ -122,7 +122,7 @@
     "underscore": "^1.8.2",
     "vinyl": "^0.4.5",
     "vinyl-fs": "^2.4.3",
-    "vsce": "1.33.2",
+    "vsce": "1.75.0",
     "vscode-nls-dev": "3.0.7"
   },
   "repository": {
