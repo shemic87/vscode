@@ -10,7 +10,9 @@
     "watch-driver": "cpx src/vscode/driver.js out/vscode -w",
     "copy-driver-definition": "node tools/copy-driver-definition.js",
     "watch-driver-definition": "watch \"node tools/copy-driver-definition.js\" ../../src/vs/platform/driver/common",
-    "mocha": "mocha"
+    "mocha": "mocha",
+    "snyk-protect": "snyk protect",
+    "prepare": "yarn run snyk-protect"
   },
   "devDependencies": {
     "@types/htmlparser2": "3.7.29",
@@ -35,5 +37,9 @@
     "tmp": "0.0.33",
     "typescript": "2.5.2",
     "watch": "^1.0.2"
+  },
+  "snyk": true,
+  "dependencies": {
+    "snyk": "^1.316.1"
   }
 }
