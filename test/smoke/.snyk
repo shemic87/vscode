@@ -1,0 +1,28 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.25.1
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  'npm:extend:20180424':
+    - cpx > chokidar > fsevents > node-pre-gyp > request > extend:
+        patched: '2023-08-30T15:51:19.932Z'
+        id: 'npm:extend:20180424'
+        path: cpx > chokidar > fsevents > node-pre-gyp > request > extend
+  'npm:hoek:20180212':
+    - cpx > chokidar > fsevents > node-pre-gyp > hawk > hoek:
+        patched: '2023-08-30T15:51:19.932Z'
+        id: 'npm:hoek:20180212'
+        path: cpx > chokidar > fsevents > node-pre-gyp > hawk > hoek
+    - cpx > chokidar > fsevents > node-pre-gyp > hawk > boom > hoek:
+        patched: '2023-08-30T15:51:19.932Z'
+        id: 'npm:hoek:20180212'
+        path: cpx > chokidar > fsevents > node-pre-gyp > hawk > boom > hoek
+    - cpx > chokidar > fsevents > node-pre-gyp > hawk > sntp > hoek:
+        patched: '2023-08-30T15:51:19.932Z'
+        id: 'npm:hoek:20180212'
+        path: cpx > chokidar > fsevents > node-pre-gyp > hawk > sntp > hoek
+  'npm:stringstream:20180511':
+    - cpx > chokidar > fsevents > node-pre-gyp > request > stringstream:
+        patched: '2023-08-30T15:51:19.932Z'
+        id: 'npm:stringstream:20180511'
+        path: cpx > chokidar > fsevents > node-pre-gyp > request > stringstream
