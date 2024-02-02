@@ -13,14 +13,14 @@
   },
   "categories": [],
   "dependencies": {
-    "vscode-extension-telemetry": "0.0.15",
+    "vscode-extension-telemetry": "0.4.5",
     "vscode-nls": "^3.2.1",
     "vscode-ripgrep": "^1.0.1"
   },
   "devDependencies": {
     "@types/node": "8.0.33",
     "@types/semver": "5.4.0",
-    "vscode": "^1.1.17"
+    "vscode": "^1.1.37"
   },
   "scripts": {},
   "activationEvents": [
