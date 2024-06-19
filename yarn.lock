@@ -693,12 +693,13 @@ chownr@^1.0.1:
   version "1.0.1"
   resolved "https://registry.yarnpkg.com/chownr/-/chownr-1.0.1.tgz#e2a75042a9551908bebd25b8523d5f9769d79181"
 
-chrome-remote-interface@^0.25.3:
-  version "0.25.3"
-  resolved "https://registry.yarnpkg.com/chrome-remote-interface/-/chrome-remote-interface-0.25.3.tgz#b692ae538cd5af3a6dd285636bfab3d29a7006c1"
+chrome-remote-interface@0.27.0:
+  version "0.27.0"
+  resolved "https://registry.yarnpkg.com/chrome-remote-interface/-/chrome-remote-interface-0.27.0.tgz#83a3ecc1f9e4da395aec81fe33963104676726b4"
+  integrity sha512-K7x1L0Wlxor6uj6ejRbERbIxp5FCRtxZiFZGmOP6mcQm6C5e0AyPa2oayR82pQkfdKaxaoiu72AeuA89WYR3AA==
   dependencies:
     commander "2.11.x"
-    ws "3.3.x"
+    ws "^6.1.0"
 
 chromium-pickle-js@^0.2.0:
   version "0.2.0"
@@ -5952,10 +5953,6 @@ uglify-to-browserify@~1.0.0:
   version "1.0.2"
   resolved "https://registry.yarnpkg.com/uglify-to-browserify/-/uglify-to-browserify-1.0.2.tgz#6e0924d6bda6b5afe349e39a6d632850a0f882b7"
 
-ultron@~1.1.0:
-  version "1.1.0"
-  resolved "https://registry.yarnpkg.com/ultron/-/ultron-1.1.0.tgz#b07a2e6a541a815fc6a34ccd4533baec307ca864"
-
 unc-path-regex@^0.1.0:
   version "0.1.2"
   resolved "https://registry.yarnpkg.com/unc-path-regex/-/unc-path-regex-0.1.2.tgz#e73dd3d7b0d7c5ed86fbac6b0ae7d8c6a69d50fa"
@@ -6033,11 +6030,12 @@ uuid@^3.0.0, uuid@^3.1.0:
   version "3.1.0"
   resolved "https://registry.yarnpkg.com/uuid/-/uuid-3.1.0.tgz#3dd3d3e790abc24d7b0d3a034ffababe28ebbc04"
 
-v8-inspect-profiler@^0.0.8:
-  version "0.0.8"
-  resolved "https://registry.yarnpkg.com/v8-inspect-profiler/-/v8-inspect-profiler-0.0.8.tgz#4d6bedb7c3d1bfc69e5bfdc2ded3d6784a5a76a6"
+v8-inspect-profiler@^0.0.14:
+  version "0.0.14"
+  resolved "https://registry.yarnpkg.com/v8-inspect-profiler/-/v8-inspect-profiler-0.0.14.tgz#efb9453e26f8be49d9ba78d8f2acf26fbce5c3a8"
+  integrity sha512-3JO+apzuxnEBTj5384HjfF37NGwKsNJFLohLlRlWHGMdts4C7NdHHs8Mhfnt+i/rL5YASJszvqLjmcGNd4JZDA==
   dependencies:
-    chrome-remote-interface "^0.25.3"
+    chrome-remote-interface "0.27.0"
 
 v8flags@^2.0.2:
   version "2.1.1"
@@ -6343,13 +6341,12 @@ write@^0.2.1:
   dependencies:
     mkdirp "^0.5.1"
 
-ws@3.3.x:
-  version "3.3.2"
-  resolved "https://registry.yarnpkg.com/ws/-/ws-3.3.2.tgz#96c1d08b3fefda1d5c1e33700d3bfaa9be2d5608"
+ws@^6.1.0:
+  version "6.2.3"
+  resolved "https://registry.yarnpkg.com/ws/-/ws-6.2.3.tgz#ccc96e4add5fd6fedbc491903075c85c5a11d9ee"
+  integrity sha512-jmTjYU0j60B+vHey6TfR3Z7RD61z/hmxBS3VMSGIrroOWXQEneK1zNuotOUrGyBHQj0yrpsLHPWtigEFd13ndA==
   dependencies:
     async-limiter "~1.0.0"
-    safe-buffer "~5.1.0"
-    ultron "~1.1.0"
 
 xml-name-validator@^1.0.0:
   version "1.0.0"
