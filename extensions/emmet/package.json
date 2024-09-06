@@ -438,8 +438,8 @@
     },
     "devDependencies": {
         "@types/node": "8.0.33",
-        "mocha-junit-reporter": "^1.17.0",
-        "mocha-multi-reporters": "^1.1.7",
+        "mocha-junit-reporter": "^2.1.1",
+        "mocha-multi-reporters": "^1.5.0",
         "vscode": "1.0.1"
     },
     "dependencies": {
