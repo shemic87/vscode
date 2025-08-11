@@ -58,7 +58,7 @@
     "@types/minimist": "1.2.0",
     "@types/mocha": "2.2.39",
     "@types/sinon": "1.16.34",
-    "asar": "^0.14.0",
+    "asar": "^3.2.0",
     "azure-storage": "^0.3.1",
     "chromium-pickle-js": "^0.2.0",
     "clean-css": "3.4.6",
@@ -122,7 +122,7 @@
     "underscore": "^1.8.2",
     "vinyl": "^0.4.5",
     "vinyl-fs": "^2.4.3",
-    "vsce": "1.33.2",
+    "vsce": "2.15.0",
     "vscode-nls-dev": "3.0.7"
   },
   "repository": {
